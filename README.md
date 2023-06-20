@@ -1,1 +1,3 @@
 # lesratonsgrailleurs
+
+Exercice qui avait pour but de réaliser un site de recettes en PHP, avec connexion à une base de données...
