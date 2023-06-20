@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* / start util / */
+
+.flex {
+    display: flex;
+}
+
+.justify_around {
+    justify-content: space-around;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.text_orange {
+    color: #ffa500;
+}
+
+.bg_orange {
+    background: #ffa500;
+}
+
+.text_white {
+    color: white;
+}
+
+.bg_white {
+    background: white;
+}
+
+.text_blue {
+    color: #49acac;
+}
+
+.bg_blue {
+    background: #49acac;
+}
+
+.container {
+    padding: 0 10%;
+}
+
+.py_2 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+/* end util  */
+
+a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+header {
+    background-color: #f5f5f5;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: #ffa500;
+    transition: 0.5s;
+}
+
+.navbar {
+    justify-content: end;
+}
+
+.navbar a {
+    padding: 20px;
+}
+
+/* / home page /
+/ section sucrés */ 
+
+.card_container {
+    overflow-wrap: break-word;
+    max-width: 20%;
+    border: 1px solid #ececee;
+    border-radius: 10px;
+}
+
+.card_container img {
+    width: 80%;
+    margin: 10%;
+    border-radius: 10px;
+}
+
+.container_body {
+    padding: 15px; 
+}
+
+.section_card {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Ajouter plats */
+
+.block{
+    display: block;
+}
+
+.btn{
+    background-color: #49acac;
+    width: 20%;
+    border-radius:10px ;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #ececee;
+}
+
+.btn:hover{
+    background-color: #ffa500;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+input, textarea, select {
+    width: 20%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #bebebe;
+}
+
+.error{
+    color: red;
+    font-size: 0.8rem;
+}
+
+.text_sucess{
+    color: green;
+    background-color: #87fc70;
+    padding: 20px;
+}
